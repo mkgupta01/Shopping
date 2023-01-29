@@ -1,0 +1,56 @@
+*{
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav{
+    position: sticky;
+    top: 0px;
+    color:aliceblue;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+h2>span{
+    color: red;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    font-size: 18px;
+}
+
+li>a{
+    color: aliceblue;
+    transition: all 0.8s ease-in;
+}
+
+li>a:hover{
+    color: red;
+    border-bottom: 1px solid red;
+}
+
+.login_but{
+    color: aliceblue;
+    background-color: red;
+    font-size: 20px;
+    padding: 4px 20px;
+    border-radius: 25px;
+    text-shadow: 2px 1px rgb(0, 0, 0);
+
+    letter-spacing: 0.4px;
+    transition: all 0.3s ease-in-out;
+}
+.login_but:hover{
+    background-color: transparent;
+    color: red;
+    border: 2px solid red;
+    cursor: pointer;
+    transform: scale(1.1);
+}
