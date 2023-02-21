@@ -1,0 +1,38 @@
+.hero {
+  margin: 1rem auto;
+  border: 2px solid black;
+  height: 28rem;
+  width: 80%;
+  padding: 2rem;
+  box-sizing: border-box;
+
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.17);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.hero h2{
+    font-size: 48px;
+    word-wrap: nowrap;
+    width: 45%;
+
+    margin-top: 3em;
+    margin-bottom: 0.5rem;
+}
+
+.hero p{
+  font-size: 18px;
+  word-wrap: nowrap;
+  width: 48%;
+}
+
+.hero img{
+  position: relative;
+  left: 40em;
+  top: -16em;
+  height: 20em;
+}

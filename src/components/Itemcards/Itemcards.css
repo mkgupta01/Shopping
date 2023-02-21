@@ -1,0 +1,41 @@
+.itemplacecard {
+    height: 20rem;
+    width: 12rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.8rem;
+    padding: 1em;
+    margin: 1rem 1rem;
+
+    box-sizing: border-box;
+  
+    box-shadow: 4px 4px 13px 0px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 4px 4px 13px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 4px 4px 13px 0px rgba(0, 0, 0, 1);
+  
+    transition: all 0.1s;
+  }
+  
+  .itemplacecard:hover{
+      height: 20.5rem;
+      width: 12.5rem;
+      cursor: pointer;
+  }
+  
+  .item_img {
+    height: 70%;
+    width: 100%;
+    border: 1px solid black;
+    margin: 0.5rem 0rem;
+  }
+  
+  .item_title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .item_price {
+    font-size: 18px;
+  }
+  
+
