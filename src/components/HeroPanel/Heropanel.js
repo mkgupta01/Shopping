@@ -5,7 +5,9 @@ import './Heropanel.css'
 function Heropanel(){
     return(
         <div className="heropanel">
-            ON HOLD
+            <div className="one hero_cards"></div>
+            <div className="two hero_cards"></div>
+            <div className="three hero_cards"></div>
         </div>
     );
 }

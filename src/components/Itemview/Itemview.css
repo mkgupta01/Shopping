@@ -1,0 +1,42 @@
+.containner{
+    margin: auto;
+    height: 24rem;
+    width: 50%;
+    background-color: rgba(240, 255, 255, 0.700);
+    border-radius: 16px;
+    padding: 2rem;
+
+    position: relative;
+}
+
+.itemimg{
+    height: 18rem;
+    width: 12rem;
+    border: 2px solid black;
+}
+
+.itemTitle{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0rem 1rem ;
+    
+    position: absolute;
+    top: 2rem;
+}
+
+.itemDesc{
+    font-size: 1.2rem;
+    display: inline;
+    padding: 0rem 1rem;
+
+    position: absolute;
+    top: 5rem;
+}
+
+.itemPrice{
+    font-size: 2rem;
+    margin: 0rem 1rem;
+
+    position: absolute;
+    top: 10rem;
+}

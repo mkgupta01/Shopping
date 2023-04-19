@@ -1,6 +1,13 @@
 .heropanel{
     margin: auto;
     width: 80%;
-    border: 2px solid black;
     height: 6rem;
+    border: 2px solid black;
+}
+
+.herocards{
+    width: 33%;
+    height: 100%;
+    border: 2px solid red;
+
 }

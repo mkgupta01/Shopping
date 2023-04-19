@@ -6,7 +6,13 @@ function ItemsContainner(props) {
   return (
     <div className="main">
       {lists.map((e) => {
-        return (<Itemcards img={e.img} title={e.title} price={e.price} />);
+        return (
+          <Itemcards 
+            img={e.img} 
+            title={e.title} 
+            price={e.price}
+            />
+        );
       })}
     </div>
   );
